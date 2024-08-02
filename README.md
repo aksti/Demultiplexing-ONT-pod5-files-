@@ -25,11 +25,16 @@ This repository contains a Python script designed to streamline the process of m
    ```
 
   Arguments:
-    --fastq", required=True, help="Directory containing FASTQ files
-    --pod5", required=True, help="Directory containing original POD5 files
-    --output_csv", required=True, help="Output CSV file to save the matching IDs
-    --output_pod5", required=True, help="Directory to save new filtered POD5 files
-    --threads", type=int, default=4, help="Number of threads to use for processing
+  
+   ``` --fastq", "Directory containing FASTQ files```
+   
+   ``` --pod5", "Directory containing original POD5 files```
+   
+   ``` --output_csv", "Output CSV file to save the matching IDs```
+
+   ``` --output_pod5", "Directory to save new filtered POD5 files```
+   
+   ``` --threads", "Number of threads to use for processing```
 
 ## Requirements:
 - Python 3.6+
