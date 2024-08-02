@@ -24,6 +24,13 @@ This repository contains a Python script designed to streamline the process of m
    python3 demux_pod5.py --fastq <fastq_directory> --pod5 <pod5_directory> --output_csv <output_csv_file> --output_pod5 <output_pod5_directory> --threads <number_of_threads>
    ```
 
+  Arguments:
+    "--fastq", required=True, help="Directory containing FASTQ files."
+    "--pod5", required=True, help="Directory containing original POD5 files."
+    "--output_csv", required=True, help="Output CSV file to save the matching IDs."
+    "--output_pod5", required=True, help="Directory to save new filtered POD5 files."
+    "--threads", type=int, default=4, help="Number of threads to use for processing."
+
 ## Requirements:
 - Python 3.6+
 - `pod5` package
