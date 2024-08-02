@@ -1,4 +1,4 @@
-# POD5 and FASTQ ID Matching and Filtering
+# POD5 and FASTQ ID Matching and Filtering - Demultiplexing nanopore pod5 raw files
 
 This repository contains a Python script designed to streamline the process of matching IDs between FASTQ and POD5 files, and creating filtered POD5 files based on these matches.
 
