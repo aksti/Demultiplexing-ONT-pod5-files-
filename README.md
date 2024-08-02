@@ -13,7 +13,7 @@ This repository contains a Python script designed to streamline the process of m
 1. Ensure the `pod5` package is installed.
 2. Run the script with the appropriate arguments:
    ```bash
-   python integrated_script.py --fastq <fastq_directory> --pod5 <pod5_directory> --output_csv <output_csv_file> --output_pod5 <output_pod5_directory> --threads <number_of_threads>
+   python demux-pod5.py --fastq <fastq_directory> --pod5 <pod5_directory> --output_csv <output_csv_file> --output_pod5 <output_pod5_directory> --threads <number_of_threads>
    ```
 
 ## Requirements:
